@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1 {
+body, h1,h2,h4,h5,h3 {
     margin: 0;
     padding: 0;
 }
@@ -102,8 +102,8 @@ button {
 
 
 /* Modal styles */
-.modal {
-    display: none;
+#modal {
+    display:none;
     position: fixed;
     top: 0;
     left: 0;
@@ -132,4 +132,17 @@ button {
     right: 0.5rem;
     font-size: 1.5rem;
     cursor: pointer;
+}
+#modalWeatherInfo{
+    padding: 1em;
+    gap: 1em;
+    display: flex;
+    align-items: center;
+}
+
+#modalWeatherInfo .left{
+    align-self: center;
+}
+.foot-model{
+    margin: 10px 0;
 }
